@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: ilivalidator.web.service.micronaut
+---
+testFramework: junit
+sourceLanguage: java

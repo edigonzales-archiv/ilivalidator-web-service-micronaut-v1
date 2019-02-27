@@ -1,0 +1,16 @@
+---
+micronaut:
+    application:
+        name: ilivalidator-web-service-micronaut
+    #server:
+    #    maxRequestSize: 50MB
+    #    multipart:
+    #      maxFileSize: 50MB    
+jackson:
+    module-scan: false
+---
+micronaut:
+  io:
+    watch:
+      paths: src/main
+      restart: true
